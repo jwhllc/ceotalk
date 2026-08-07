@@ -146,6 +146,7 @@
   footer a{color:#b7af9b;text-decoration:none;display:inline-flex;gap:.5rem}
   footer a:hover{color:var(--brass-lt)}
   footer a::after{content:"→";color:var(--brass)}
+  footer .foot-links{display:flex;gap:1.4rem;flex-wrap:wrap;align-items:center}
 
   .reveal{opacity:0;transform:translateY(20px);transition:opacity .7s ease,transform .7s ease}
   .reveal.in{opacity:1;transform:none}
@@ -397,7 +398,10 @@
 <footer>
   <div class="wrap">
     <span>BRYC · CEO Vision</span>
-    <a href="about.html">More about Josh</a>
+    <nav class="foot-links">
+      <a href="compensation.html">Investing in Leadership</a>
+      <a href="about.html">More about Josh</a>
+    </nav>
   </div>
 </footer>
 
